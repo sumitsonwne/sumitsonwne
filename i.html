@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .hidden {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .color-1 { color: #2c2a29; }
+    .color-2 { color: #144c1e; }
+    .color-3 { color: #2d139f; }
+    .color-4 { color: #731949; }
+  </style>
+</head>
+<body>
+  <div id="goodMorning" style="font-size: 2em; font-family: 'Arial', sans-serif;"></div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var goodMorningElement = document.getElementById("goodMorning");
+      var message = "Hi folks im sumit!";
+
+      function revealText(index) {
+        if (index <= message.length) {
+          var colorClass = "color-" + (index % 4 + 1);
+          goodMorningElement.innerHTML += '<span class="' + colorClass + ' hidden">' + message[index - 1] + '</span>';
+          setTimeout(function() {
+            document.querySelector("#goodMorning span:last-child").classList.remove("hidden");
+            revealText(index + 1);
+          }, 150);
+        }
+      }
+
+      // Start revealing the text
+      revealText(1);
+    });
+  </script>
+</body>
+</html>
