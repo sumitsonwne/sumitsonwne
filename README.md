@@ -1,7 +1,8 @@
-- 👋 Hi, I’m @sumitsonwne
-- 👀 I’m interested in data science
-- 🌱 I’m currently learning python Library
-- 💞️ I’m looking for job as freasher
+- 👋 Hi, I’m @ sumit sonwane
+- 👀 I’m interested in data eng
+- 🌱 I’m currently growing my skillset for AI and ML
+- 💞️ I’m looking for job as data analyst
+- i hold 2 years of experience as data analyst 
 - 📫 How to reach me wa.me/+918390933638
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
