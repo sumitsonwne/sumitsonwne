@@ -1,13 +1,7 @@
-- 👋 Hi, I’m @ sumit sonwane
-- 👀 I’m interested in data eng
-- 🌱 I’m currently growing my skillset for AI and ML
-- 💞️ I’m looking for job as data analyst
-- i hold 2 years of experience as data analyst 
-- 📫 How to reach me wa.me/+918390933638
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-sumitsonwne/sumitsonwne is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 👋 Hi, I’m Sumit Sonwane
+- 👀 I’m passionate about data engineering
+- 🌱 Currently expanding my expertise in AI and Machine Learning
+- 💼 With 2 years of experience as a data analyst, I’m actively seeking new opportunities in the field
+- 📫 Reach me at [WhatsApp](https://wa.me/+918390933638)
+- 😄 Pronouns: He/Him
+- ⚡ Fun fact: I’m always curious and love diving into new tech challenges!
